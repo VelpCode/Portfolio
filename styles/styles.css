@@ -1,0 +1,11 @@
+
+*{  
+    font-family: 'Poppins', sans-serif;
+}
+
+.Aman.Title {
+    text-align:center;
+    background-color: black;
+    color:white;
+    padding: 20px;
+}
