@@ -1,9 +1,7 @@
 
 *{  
     font-family: 'Poppins', sans-serif;
-}
-body {
- 
+    background:lightgray;
 }
 
 p {
@@ -25,3 +23,52 @@ p {
     color:white;
     padding: 20px;
 }
+
+
+.outerbox {
+    width: 450px;
+    display:block;
+    margin-left: 600px;
+}
+
+.divone {
+    font-size:30px;
+    font-weight:bolder;
+    border: 4px solid white;
+    background: skyblue;
+}
+
+.divtwo {
+    font-size:20px;
+    border: 4px solid white;
+    background: skyblue;
+}
+
+.divthree {
+    font-size:20px;
+    border: 4px solid white;
+    background: skyblue;
+    text-align:center;
+    padding:10px;
+}
+
+button {
+    font-size: 20px;
+    text-align:center;
+    background:white;
+    border:1px solid white;
+}
+
+.container {
+    display: flex;
+    gap: 8px;
+    padding: 10px;
+  }
+
+  .container div {
+    text-align: center;
+    border: 4px solid black;
+    margin-left: 100px;
+    flex: 1;
+  }
+
